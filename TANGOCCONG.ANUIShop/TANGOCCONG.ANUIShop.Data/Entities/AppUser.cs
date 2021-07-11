@@ -11,5 +11,6 @@ namespace TANGOCCONG.ANUIShop.Data.Entities
         public string LastName { get; set; }
         public string ImagePath { get; set; }
         public DateTime Dob { get; set; }
+        public DateTime TimeCreated { get; set; }
     }
 }

@@ -36,7 +36,8 @@ namespace TANGOCCONG.ANUIShop.Data.Extentions
                 SecurityStamp = string.Empty,
                 FirstName = "Ta",
                 LastName = "Cong",
-                Dob = new DateTime(1997, 06, 05)
+                Dob = new DateTime(1997, 06, 05),
+                TimeCreated = DateTime.Now,
             });
 
             modelBuilder.Entity<IdentityUserRole<Guid>>().HasData(new IdentityUserRole<Guid>
