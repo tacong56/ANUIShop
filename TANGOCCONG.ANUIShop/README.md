@@ -24,3 +24,11 @@
 - git branch -M main --- move main brach
 - git remote add origin https://github.com/tacong56/ANUIShop.git --- add repo local to git origin
 - git push -u origin main --- push code to main
+### Create branch
+- git checkout -b $branch_name --- Switched to a new branch $branch_name
+- git commit -am "create branch feature" --- commit
+- git push origin $branch_name --- Push your branch to git
+### Other
+- git checkout: you can see file change
+- git branch: you can see branch current
+- git checkout $branch_name: change branch current by $branch_name
