@@ -16,12 +16,12 @@ namespace TANGOCCONG.ANUIShop.API.Models
     {
         [Required(ErrorMessage = "Tên tài khoản không được để trống.")]
         [MaxLength(50, ErrorMessage = "Được được quá 50 ký tự.")]
-        [MinLength(4, ErrorMessage = "Phải có 4 ký tự.")]
+        [MinLength(4, ErrorMessage = "Tài khoản phải có ít nhất 4 ký tự.")]
         public string UserName { get; set; }
 
         [Required(ErrorMessage = "Mật khẩu không được để trống.")]
         [MaxLength(50, ErrorMessage = "Được được quá 50 ký tự.")]
-        [MinLength(4, ErrorMessage = "Phải có 4 ký tự.")]
+        [MinLength(4, ErrorMessage = "Mật khẩu phải có ít nhất 4 ký tự.")]
         public string Password { get; set; }
         public bool RememberMe { get; set; }
     }

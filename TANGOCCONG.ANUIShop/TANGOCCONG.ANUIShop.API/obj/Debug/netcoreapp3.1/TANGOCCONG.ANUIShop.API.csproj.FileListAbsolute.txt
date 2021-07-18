@@ -65,3 +65,5 @@ C:\Users\Ta Cong\Desktop\ANUIShop\TANGOCCONG.ANUIShop\TANGOCCONG.ANUIShop.API\bi
 C:\Users\Ta Cong\Desktop\ANUIShop\TANGOCCONG.ANUIShop\TANGOCCONG.ANUIShop.API\bin\Debug\netcoreapp3.1\TANGOCCONG.ANUIShop.Data.dll
 C:\Users\Ta Cong\Desktop\ANUIShop\TANGOCCONG.ANUIShop\TANGOCCONG.ANUIShop.API\bin\Debug\netcoreapp3.1\TANGOCCONG.ANUIShop.Data.pdb
 C:\Users\Ta Cong\Desktop\ANUIShop\TANGOCCONG.ANUIShop\TANGOCCONG.ANUIShop.API\obj\Debug\netcoreapp3.1\TANGOCCONG.ANUIShop.API.csproj.CopyComplete
+C:\Users\Ta Cong\Desktop\ANUIShop\TANGOCCONG.ANUIShop\TANGOCCONG.ANUIShop.API\bin\Debug\netcoreapp3.1\log4net.config
+C:\Users\Ta Cong\Desktop\ANUIShop\TANGOCCONG.ANUIShop\TANGOCCONG.ANUIShop.API\bin\Debug\netcoreapp3.1\log4net.dll

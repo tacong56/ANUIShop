@@ -57,6 +57,9 @@ namespace TANGOCCONG.ANUIShop.API
             // configure strongly typed settings object
             services.Configure<AppSettings>(Configuration.GetSection("AppSettings"));
 
+            //DI LOGGER
+            services.AddSingleton<ILoggerManager, LoggerManager>();
+
             //Declare DI
             services.AddTransient<UserManager<AppUser>, UserManager<AppUser>>();
             services.AddTransient<SignInManager<AppUser>, SignInManager<AppUser>>();

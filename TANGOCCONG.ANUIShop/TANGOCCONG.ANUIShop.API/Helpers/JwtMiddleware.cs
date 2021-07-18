@@ -31,6 +31,11 @@ namespace TANGOCCONG.ANUIShop.API.Helpers
                 attachUserToContext(context, userService, token);
 
             await _next(context);
+
+            if (context.Response.StatusCode == 204)
+            {
+                context.Response.ContentLength = 0;
+            }
         }
 
         private void attachUserToContext(HttpContext context, IUserService userService, string token)
