@@ -1,0 +1,50 @@
+.row {
+	@include clearfix;
+	
+	max-width: $grid-width;
+	margin: 0 auto;
+
+	&:not(:last-child) { //không set giá trị cho phần tử cuối cùng
+		margin-bottom: $gutter-vertical;
+	}
+
+	[class^="col-"] {
+		float: left;
+
+		&:not(:last-child) {
+			margin-right: $gutter-horizontal;
+		}
+	}
+
+	.col-1-of-5 {
+		@include widthcol(1, 5);
+	}
+
+	.col-4-of-5 {
+		@include widthcol(4, 5);
+	}
+
+	.col-1-of-2 {
+		@include widthcol(1, 2);
+	}
+
+	.col-1-of-3 {
+		@include widthcol(1, 3);
+	}
+
+	.col-2-of-3 {
+		@include widthcol(2, 3);
+	}
+
+	.col-1-of-4 {
+		@include widthcol(1, 4);
+	}
+
+	.col-2-of-4 {
+		@include widthcol(2, 4);
+	}
+
+	.col-3-of-4 {
+		@include widthcol(3, 4);
+	}
+}

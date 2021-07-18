@@ -1,0 +1,13 @@
+@mixin widthcol($s1, $s2) {
+	/*
+		Công thức tính with col-s1-of-s2
+		width: calc(s1*(100% - (s2-1)*#{$gutter-horizontal})/s2 + (s1-1)*#{$gutter-horizontal}) 
+	*/
+	width: calc(#{$s1}*(100% - #{$s2 - 1}*#{$gutter-horizontal})/#{$s2} + #{$s1 - 1}*#{$gutter-horizontal});
+}
+
+@mixin textDot {
+	text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
